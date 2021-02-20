@@ -1,0 +1,41 @@
+.bank{
+    margin-top: 140px;
+}
+.bank__content {
+    display: flex;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.bank__content:before {
+    display: block;
+    content: "";
+    width: 490px;
+    height: 500px;
+    background: url(../../img/chess.png) center center / cover no-repeat;
+}
+.bank__desc {
+    background: #202123;
+    width: 69%;
+    min-height: 455px;
+    margin-left:-140px;
+    margin-top: 100px;
+    padding-left: 83px;
+}
+.bank__title {
+    font-weight: bold;
+    font-size:36px;
+    margin-top: 65px;
+    margin-bottom: 40px; 
+}
+.bank__text {
+    margin-bottom: 70px;
+}
+.bank__text p {
+    margin-bottom: 20px;
+    line-height: 1.67;
+    width: 70%;
+}
+.bank__text p:last child {
+    margin-bottom: 0;
+}
+

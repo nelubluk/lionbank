@@ -1,0 +1,46 @@
+.service {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.services__item {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 88px;
+	text-decoration: none;
+}
+.service:hover {
+	background: #F5F5F5;
+}
+.service:hover .service__button{
+	background: #DFB56D;
+	border: 1px solid #dfb56d;
+}
+.page-content {
+	background: #FFF;
+	color: #303030;
+	padding: 40px 0;
+}
+.service__img {
+	width: 40%;
+	margin-right: 5%;
+}
+.service__content {
+	flex:1;
+}
+.service__title {
+	font-size: 36px;
+	color: #202020;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+.service__desc {
+	line-height: 1.7;
+	margin-bottom: 55px;
+}
+
+
+

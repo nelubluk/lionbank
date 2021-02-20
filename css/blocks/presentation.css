@@ -1,0 +1,19 @@
+.presentation__container {
+    margin-bottom:185px;
+    display: flex;
+    height: 485px;
+}
+.presentation__content {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.presentation__slogan {
+    margin-top: 27px;
+    font-size: 18px;
+    color: #d3a557;
+    margin-bottom: 38px;
+}

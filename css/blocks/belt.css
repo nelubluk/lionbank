@@ -1,0 +1,14 @@
+.belt-bg-grey {
+	background: #F4F5F5;
+}
+.belt__title {
+	font-size: 48px;
+	font-weight:bold;
+	color:#202020;
+	margin-top: 88px;
+	margin-bottom: 60px;
+}
+.belt__title--margin {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,33 @@
+.footer-container__content{
+    border-top: 1px solid #353538;
+    width: 1140px;
+}
+.footer-container {
+    display:flex;
+    align-items: center;
+    margin-top: 50px;  
+    height: 93px;
+}
+.footer__col {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.footer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container__section {
+    height: 140px;
+    margin-top: 12px;
+}
+.inner-footer__container {
+    padding: 40px 0;
+}
+.inner-footer{
+    margin-top: auto;
+}
+
+
+

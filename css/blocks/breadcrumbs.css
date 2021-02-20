@@ -1,0 +1,27 @@
+.breadcrumbs__list {
+	display: flex;
+}
+.breadcrumbs__item {
+	font-size: 14px;
+	color: #D3A557;
+	display: inline-block;
+	padding-right: 5px;
+}
+.breadcrumbs__item:after {
+	content: " / ";
+	color: #FFF;
+	padding-left: 0;
+}
+.breadcrumbs__item:last-child:after {
+	content: none;
+}
+.breadcrumbs__item--active .breadcrumbs__link {
+	text-decoration: none;
+	color: #9A9A9A;
+}
+.breadcrumbs__item:last-child:after {
+	content: none;
+}
+.breadcrumbs__item--active .breadcrumbs__link {
+	text-decoration: none;
+	color: #9A9A9A;
